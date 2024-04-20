@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import React from 'react';
 
 const page = () => {
@@ -5,3 +6,7 @@ const page = () => {
 };
 
 export default page;
+
+export const metadata: Metadata = {
+  title: 'Customers',
+};
